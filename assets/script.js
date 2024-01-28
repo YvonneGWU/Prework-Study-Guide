@@ -7,15 +7,15 @@ function listTopics() {
 }
 
 function selectTopic() {
-  if (topics === 'HTML') {
+  if (randomTopic === 'HTML') {
     console.log("Let's study HTML!");
-} else if (topics === 'CSS') {
- console.log("Let's study CSS!");
-} else if (topics === 'Git') {
- console.log("Let's study Git!");
-} else if (topics === 'JavaScript') {
- console.log("Let's study JavaScript!");
-} else {
- console.log('Please try again!');
+  } else if (randomTopic === 'CSS') {
+    console.log("Let's study CSS!");
+  } else if (randomTopic === 'Git') {
+    console.log("Let's study Git!");
+  } else if (randomTopic === 'JavaScript') {
+    console.log("Let's study JavaScript!");
+  } else {
+    console.log('Please try again!');
   }
 }
